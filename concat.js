@@ -5,7 +5,7 @@ let fullName2 = firstName + " " + lastName;
 console.log(fullName2);
 
 
-
+// name add korty 
 let number1 = "Rifat"
 let number2 = "Pramanik"
 let fullname = number1.concat(" ", number2) 
