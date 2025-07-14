@@ -11,6 +11,7 @@ console.log(person["city"]);  // Output: Rangpur
 // + add
 person.country = "Bangladesh";
 console.log(person.country);  // Output: Bangladesh
+
 // dealate kora
 person.age = 16;
 console.log(person.age);  // Output: 16
@@ -24,3 +25,9 @@ let person = {
 };
 
 person.greet();  // Output: Hello, I am Rifat
+
+let person={
+    name:"Rifat",
+    age:15,
+    city:"Rangpur"
+};

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Name Display Project</title>
+</head>
+<body>
+
+  <h2>Name Display App</h2>
+
+  <input id="nameInput" type="text" placeholder="Enter your name">
+  <button onclick="displayName()">Submit</button>
+
+  <h3 id="output"></h3>
+
+  <script>
+    function displayName() {
+      let inputField = document.getElementById("nameInput");
+      let name = inputField.value;
+
+      let output = document.getElementById("output");
+      output.innerText = "Welcome, " + name + "!";
+    }
+  </script>
+
+</body>
+</html>
